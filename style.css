@@ -1,30 +1,56 @@
+/* Retro background color */
 body {
     background-color: #f8f9fa;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
+/* Card styling for retro effect */
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #222;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    text-align: center;
 }
 
+/* Message styling */
 #message {
     font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #fff; /* Set text color to white */
 }
 
+/* Button styling */
 .btn-primary {
-    background-color: #4b0082;
-    border-color: #4b0082;
+    background-color: #ff6347;
+    border-color: #ff6347;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 12px;
 }
 
 .btn-primary:hover {
-    background-color: #3a0066;
-    border-color: #3a0066;
+    background-color: #ff4500;
+    border-color: #ff4500;
 }
 
+/* Input styling */
 .form-control {
-    border: 1px solid #4b0082;
+    border: 1px solid #ff6347;
+    background-color: #333;
+    color: #fff;
+    border-radius: 12px;
 }
 
 .form-control:focus {
-    border-color: #3a0066;
-    box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.25);
+    border-color: #ff4500;
+    box-shadow: 0 0 0 0.2rem rgba(255, 99, 71, 0.25);
+}
+
+/* Attempts display styling */
+#attempts {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #fff; /* Ensure attempts text color is also white */
 }
