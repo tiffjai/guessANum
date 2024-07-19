@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    background-color: #4b0082;
+    border-color: #4b0082;
+}
+
+.btn-primary:hover {
+    background-color: #3a0066;
+    border-color: #3a0066;
+}
+
+.form-control {
+    border: 1px solid #4b0082;
+}
+
+.form-control:focus {
+    border-color: #3a0066;
+    box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.25);
+}
