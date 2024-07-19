@@ -5,10 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the Number Game</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main class="container mt-5">
         <h1 class="text-center mb-4">Guess the Number Game</h1>
+        <section class="row justify-content-center">
+            <article class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p id="message" class="mb-3">I'm thinking of a number between 1 and 100. Can you guess it?</p>
+                        <div class="input-group mb-3">
+                            <input type="number" id="guessInput" class="form-control" placeholder="Enter your guess" aria-label="Guess">
+                            <button id="guessButton" class="btn btn-primary">Guess</button>
+                        </div>
+                        <p id="attempts" class="mb-0">Attempts: 0</p>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
