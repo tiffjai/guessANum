@@ -1,3 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // We'll add our game logic here
+    const randomNumber = Math.floor(Math.random() * 100) + 1;
+    let attempts = 0;
 });
