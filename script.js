@@ -8,4 +8,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const guessButton = document.getElementById('guessButton');
     const attemptsDisplay = document.getElementById('attempts');
 
+    guessButton.addEventListener('click', () => {
+        const userGuess = Number(guessInput.value);
+        attempts++;
+
+        if (userGuess === randomNumber) {
+            message.textContent = `Congratulations! You guessed the correct number: ${randomNumber}`;
+            guessButton.disabled = true;
+            guessInput.disabled = true;
+        } else if (userGuess < randomNumber) {
+            message.textContent = 'Too low! Try again.';
+        } else {
+            message.textContent = 'Too high! Try again.';
+        }
+
+        attemptsDisplay.textContent = `Attempts: ${attempts}`;
+        guessInput.value = '';
+        guessInput.focus();
+    });
 });
