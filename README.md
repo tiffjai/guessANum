@@ -16,17 +16,6 @@ This "Guess the Number" game is implemented using HTML, CSS, and JavaScript. It 
 - Tracks the number of attempts made by the player.
 - Uses Bootstrap for styling with custom Pantone purple theme.
 
-### Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/guess-the-number-game.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd guess-the-number-game
-    ```
-
 ### Usage
 
 1. Open `index.html` in your web browser.
